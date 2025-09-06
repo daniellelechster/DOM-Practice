@@ -1,0 +1,28 @@
+body {
+    --primary-color:#485665;
+    --secondary-color: #1E3231;
+    --accent-color: #8E7C93;
+
+    background-color: var(--primary-color);
+}
+
+body.seasonal-promo {
+    --primary-color:#6B2737;
+    --secondary-color: #E08E45;
+    --accent-color: #F8F4A6;
+
+    background-color: var(--primary-color);
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: .1fr repeat(3, 1fr) .1fr;
+    grid-template-rows: .4fr .2fr .8fr 3fr;
+    gap: .5em .2em;
+    grid-template-areas: 
+    ". a a a ."
+    ". b b b ."
+    ". c c c ."
+    ". d d d .";
+}
+
