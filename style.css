@@ -55,7 +55,7 @@ img {
     justify-content: space-around;
     margin: 2em;
     grid-area: c;
-    background-color: #485665;
+    background-color: var(--secondary-color);
 }
 
 .offerings {
